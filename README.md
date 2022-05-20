@@ -26,7 +26,7 @@ For request to see all added persons <br>
 ![img_1.png](img_1.png)
 
 For searching <br>
-![img_2.png](img_2.png)
+![img_3.png](img_3.png)
 
 
   
