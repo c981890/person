@@ -17,7 +17,7 @@ public class PersonController {
     @Autowired
     PersonRepository personRepository;
 
-    @PostMapping("/persons")
+    @PostMapping("/person")
     public ResponseEntity<Person> save(@RequestBody Person person) {
         try {
             return new ResponseEntity<>(personRepository.save(person), HttpStatus.CREATED);
@@ -26,7 +26,7 @@ public class PersonController {
         }
     }
 
-    @GetMapping("/persons")
+    @GetMapping("/person")
     public ResponseEntity<List<Person>> getAllCustomers(@RequestParam(required = false) String search) {
         try {
             List<Person> list = new ArrayList<Person>();
@@ -52,7 +52,7 @@ public class PersonController {
         }
     }
 
-    @DeleteMapping("/persons/{id}")
+    @DeleteMapping("/person/{id}")
     public ResponseEntity<HttpStatus> deleteCustomer(@PathVariable Long id) {
         try {
             Optional<Person> customer = personRepository.findById(id);
