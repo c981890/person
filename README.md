@@ -19,13 +19,13 @@
 
 Access to H2 database console from web browser localhost:8888/h2-console <br>
 You can use cURL or Postman to try the application.<br>
-For adding users to database  <br>
+For adding users to database <br>
 ![img.png](img.png)
 
-For request to see all added persons
+For request to see all added persons <br>
 ![img_1.png](img_1.png)
 
-For searching
+For searching <br>
 ![img_2.png](img_2.png)
 
 
